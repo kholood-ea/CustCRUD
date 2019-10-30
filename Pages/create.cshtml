@@ -1,0 +1,19 @@
+﻿
+@page
+@model CustCRUD.Pages.createModel
+@{
+}
+
+<h2>Create</h2>
+<p>Enter your name :</p>
+ <form method="post">
+     <div asp-validation-summary="All"></div>
+     <div>
+         Name: <input asp-for="Customer.Name"/>
+       
+         <button>Submit</button>
+         
+
+     </div>
+
+ </form>
